@@ -307,7 +307,83 @@ $(function defaultchart() {
 			labels: {
                 format: '{value} \xB0C'
             },
-		
+			minorGridLineWidth: 0,
+            gridLineWidth: 0,
+            alternateGridColor: null,
+            plotBands: [{ 
+			// Minus
+				from: -20,
+                to: 0,
+                color: 'rgba(0, 0, 0, 0)',
+                label: {
+                    text: 'Extremely Cold',
+                    style: {
+                        color: '#54b3b6'
+                    }
+                }
+            }, {
+                from: 0,
+                to: 10,
+                color: 'rgba(68, 170, 213, 0.1)',
+                label: {
+                    text: 'Cold',
+                    style: {
+                        color: '#5490b6'
+                    }
+                }
+            }, { 
+                from: 10,
+                to: 18,
+                color: 'rgba(0, 0, 0, 0)',
+                label: {
+                    text: 'Chilly',
+                    style: {
+                        color: '#5480b6'
+                    }
+                }
+            }, { 
+                from: 18,
+                to: 26,
+                color: 'rgba(68, 170, 213, 0.1)',
+                label: {
+                    text: 'Pleasant',
+                    style: {
+                        color: '#54b682'
+                    }
+                }
+            }, { 
+                from: 26,
+                to: 32,
+                color: 'rgba(0, 0, 0, 0)',
+                label: {
+                    text: 'Feeling hot',
+                    style: {
+                        color: '#dc8100'
+                    }
+                }
+            }, { 
+                from: 32,
+                to: 36,
+                color: 'rgba(68, 170, 213, 0.1)',
+                label: {
+                    text: 'Very hot',
+                    style: {
+                        color: '#d85c31'
+                    }
+                }
+            }, { 
+                from: 36,
+                to: 52,
+                color: 'rgba(0, 0, 0, 0)',
+                label: {
+                    text: 'Heatwave',
+                    style: {
+                        color: '#f00098'
+                    }
+                }
+                       
+            }]
+			
 		}, { // Secondary yAxis
             title: {
                 text: '',
@@ -329,10 +405,31 @@ $(function defaultchart() {
 			 },
 		series: [{
 			name: 'Temperature',
-			color: '#c4392d',
 			negativeColor: '#2d98c4',
 			lineWidth: 2,
-			data: []
+			data: [],
+			zones: [{ 
+				value: 0,
+                color: '#004ff0'  
+            }, { 
+				value: 10,
+                color: '#5490b6'
+			}, {
+				value: 18,
+				color: '#5480b6'
+			}, {
+				value: 26,
+				color: '#54b682' 
+			}, {
+				value: 32,
+				color: '#dc8100'
+			}, {
+				value: 36,
+				color: '#d85c31'
+			}, {
+				value: 52,
+				color: '#f00098'
+            }]
 			 }, {
 			name: 'Dewpoint',
 			yAxis: 1,								// apply the second column to the second y-axis
