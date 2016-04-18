@@ -3,6 +3,8 @@
 Lamia Weather Station Graphs page. This is the standalone script version for creating the weather graphs on our page. Make sure
 you read the wiki page on how to properly configure them.
 
+<strong> Live demo: </strong> http://www.euacosmos.com/weather/
+
 - Version 1.0 
 
 Original release containing Temperature, Dewpoint & Heat index dual graph, Humidity, Barometer and the three wind graphs (wind speed, 
