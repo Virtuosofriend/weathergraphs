@@ -310,7 +310,7 @@ $(function defaultchart() {
 		
 		}, { // Secondary yAxis
             title: {
-                text: 'Monthly Percipitation',
+                text: 'Rain',
             },
 			labels: {
                 format: '{value} mm'
@@ -328,14 +328,14 @@ $(function defaultchart() {
 				verticalAlign: 'top',
 			 },
 		series: [{
-			name: 'Today Percipitation',
+			name: 'Today Precipitation',
 			color: '#53a1d8',
 			negativeColor: '#2d98c4',
 			fillOpacity: 0.1,
 			lineWidth: 2,
 			data: []
 			 }, {
-			name: 'Month Percipitation',
+			name: 'Month Precipitation',
 			yAxis: 1,								// apply the second column to the second y-axis
 			type: 'line',						// Make the new plot fill the area
             color: '#005c9a',
