@@ -40,4 +40,9 @@ Greek language translation added
 - Wind Speed Graph  
 ![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/wind.jpg)  
 - Wind Direction Graph  
-![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/winddir.jpg)  
+![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/winddir.jpg)
+
+- Temperature Graph with details box
+![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/newtemp.png)
+- Rain Graph with details box
+![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/newrain.png)
