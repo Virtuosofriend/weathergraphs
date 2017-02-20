@@ -4,7 +4,7 @@
 Lamia Weather Station Graphs page. This is the standalone script version for creating the weather graphs on our page. Make sure
 you read the wiki page on how to properly configure them.
 
-<strong> <a href="http://www.euacosmos.com/weather/">Live demo</a> </strong>  
+<strong> <a href="http://www.euacosmos.com/weather/lamia_graphs.php">Live demo</a> </strong>  
 
 Before start using the script, read the <a href="https://github.com/Virtuosofriend/weathergraphs/wiki/"> Wiki page</a>.  
 
