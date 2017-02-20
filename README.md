@@ -37,12 +37,10 @@ Greek language translation added
 ![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/temp.jpg)  
 - Solar Graph  
 ![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/solar.jpg)  
-- Wind Speed Graph  
-![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/wind.jpg)  
-- Wind Direction Graph  
-![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/winddir.jpg)
 
 - Temperature Graph with details box
 ![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/newtemp.png)
 - Rain Graph with details box
 ![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/newrain.png)
+- Wind Speed Graph with details box
+![](http://www.euacosmos.com/vf/github/weathergraphs/graphs_screens/newwind.png)
